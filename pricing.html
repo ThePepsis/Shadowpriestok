@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/mycss.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+    <title>SP</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="source/images/STrpng.png" alt="logo"></a><!-- для хостинга вместо index.html ставится / -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a><!-- на хостинге вместо index.html ставится / -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                                href="pricing.html">Pricing</a><!-- active это заданное оформление в CSS от bootstrap, когда кликнешь на home, то это слово теперь будет выделенно -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="container-fluid mt-4"><!-- в  главном контейнере задаём отступы margin: 4; -->
+            <div class="row"><!-- писать именно класс row обязательно! -->
+                <div class="col-lg-1">
+                </div><!-- 1 доля пустая -->
+
+                <div class="col-lg-8 col-md-12"><!-- 8 долей для карт товара, в среднем разрешении занимать все 12 -->
+                    <div class="row">
+                        <!-- на широких экранах 1 столбец будет занимать 4 доли из 12,
+                            т.к. в bootstrap grid во flex контейнере установлено значение 12, дальше также на меньших экранах по 6 долей -->
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/@Shadowpriestok"><img src="source/images/flat shadowpriestok.jpg" class="card-img-top" alt="flat"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">ShadowPriestok</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="https://www.youtube.com/@Shadowpriestok" class="btn btn-primary"
+                                        target="_blank">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="row px-2">
+                        <div class="col-lg-12 sidebar my-4"><!-- 12 долей от родительского, от 3 основных -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi error totam at accusamus
+                                nisi voluptatibus corporis fugiat sit non earum quis obcaecati quos, odio qui esse.
+                                Quasi dolorem, iste nihil explicabo quos hic rem labore esse. Quisquam vel, eius quas
+                                provident porro impedit dolor!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolor at voluptatibus sequi, nostrum, unde labore iste esse sunt cumque doloremque sint
+                                quam, optio animi ullam. Harum modi dolorem laboriosam obcaecati. <a href="#">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- пока пустые, но для боковой панели, в среднем разрешении занимать все 12 долей,т.е. перенестись вниз  -->
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footerinfo">
+                    <p>Contacts <br> Job <br> Our Team</p><!-- br нужен для переноса на новую строку -->
+                </div>
+
+                <div class="col-lg-4 col-md-12 footerinfo media-links">
+                    <a href="https://www.instagram.com/the.pepsis?igsh=MTRuczMwYTZkc3pycQ=="><img style="width: 25px; margin-inline: 1em;" src="source/images/inst.png" alt="inst"></a>
+                    <a href="https://t.me/the_pepsis"><img style="width: 35px; margin-inline: 1em;" src="source/images/tgpng.jpg" alt="tg"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 footerinfo text-center"><!-- класс text-center выравнивает текст -->
+                <p>All rights reserved 2024 <br>©️ The.Pepsis</p> <!-- br нужен для переноса на новую строку -->
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- js лучше кидать в самом конце кода, т.к. сильная нагрузка на комп -->
+</body>
+
+</html>

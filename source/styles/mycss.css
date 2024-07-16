@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');/* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+
+body{
+    background: linear-gradient(10deg, #8c00ff 0%, #cd70ff 38%, #ffffff 100%);
+    font-family: Nunito, serif;/* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+}
+
+p{
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #a549db;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(131, 105, 131);
+}
+
+.navbar-brand img{
+    width: 55px;
+}
+
+.navbar-toggler{
+    color: rgb(187, 53, 228);
+    background-color: white;
+
+}
+
+.navbar-toggler:hover{
+    background-color: rgb(187, 53, 228);
+    color: white;
+}
+
+.sidebar{
+    color: white;
+    background: linear-gradient(70deg, #8c00ff 0%, #b352e7 38%);
+}
+
+.card{
+    background-color: #202529;
+    color: white;
+}
+
+.slideinfo{
+    color: white;
+    /* margin-inline: auto; центрировать по горизонтали
+    margin-block: auto;  центрировать по вертикали */
+    margin: auto auto; /* центрировать both */
+}
+
+.footerinfo{
+    color: white;
+    margin: auto auto; 
+}
+
+footer{
+    background-color: #520096;
+}
+
+.media-links{
+    display: flex;
+    flex-direction: column;
+    align-items:end
+}
+
+.btn-outline-primary{
+    background: linear-gradient(70deg, #8c00ff 0%, #b352e7 38%);
+    border: 0;
+    color: white;
+}
+.btn-outline-primary:hover{
+    color:rgb(187, 53, 228);
+    background: linear-gradient(70deg, #17017a 0%, #520096 38%);
+}
+
+.loopa{
+    animation: loopa 2s ease 0s infinite normal forwards;
+}
+@keyframes loopa {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
+
+
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;/* не отображать кнопки снизу на телефонах */
+    }
+}
